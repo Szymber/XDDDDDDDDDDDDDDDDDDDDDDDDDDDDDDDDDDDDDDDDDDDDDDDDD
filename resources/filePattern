@@ -1,0 +1,20 @@
+gridSizeX gridSizeY
+unavailableFieldsNumber
+    unavailableFieldX[1] unavailableFieldY[1]
+    unavailableFieldX[2] unavailableFieldY[2]
+    ...
+    unavailableFieldX[n] unavailableFieldY[n]
+
+pawnNumber pawnType
+    WhitePawnTargetPositionX[1] WhitePawnTargetPositionY[1]
+    ...
+    WhitePawnTargetPositionX[pawnNumber/2] WhitePawnTargetPositionY[pawnNumber/2]
+
+    BlackPawnTargetPositionX[1] BlackPawnTargetPositionY[1]
+    ...
+    BlackPawnTargetPositionX[pawnNumber/2] BlackPawnTargetPositionY[pawnNumber/2]
+
+movesNumber
+moveFromX[1] moveFromY[1] moveToX[1] moveToY[1]
+...
+moveFromX[n] moveFromY[n] moveToX[n] moveToY[n]
